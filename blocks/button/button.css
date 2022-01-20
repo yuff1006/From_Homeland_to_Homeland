@@ -1,0 +1,14 @@
+.button {
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color:#0278FE;
+  max-width: 248px;
+  max-height: 48px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
+  box-sizing: border-box;
+  padding-top: calc((48px - 1.2 * 18px) / 2);
+}

@@ -1,0 +1,10 @@
+.cover {
+    position: relative;
+    background-image: url('../../images/__background.png');
+    width: calc(100% - 2 * 48px);
+    min-height: 740px;
+    background-position: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

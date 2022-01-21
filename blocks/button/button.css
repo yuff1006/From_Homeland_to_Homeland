@@ -11,4 +11,9 @@
   line-height: 1.2;
   box-sizing: border-box;
   padding-top: calc((48px - 1.2 * 18px) / 2);
+  transition: background-color 0.3s ease-out;
+}
+
+.button:hover {
+  background-color: #0063D2;
 }

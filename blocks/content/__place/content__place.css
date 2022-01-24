@@ -8,7 +8,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 520px) {
   .content__place {
     margin: 62px 0 64px 0;
   }

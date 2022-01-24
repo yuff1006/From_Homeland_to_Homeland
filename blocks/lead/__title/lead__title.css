@@ -6,5 +6,19 @@
   max-width: 793px;
   min-height: 132px;
   padding: 0;
-  line-height: 1.15;
+  line-height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    width: calc(100% - 24px * 2);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__title {
+    font-size: 40px;
+    line-height: 44px;
+    width: calc(100% - 16px * 2);
+  }
 }

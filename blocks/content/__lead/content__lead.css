@@ -1,4 +1,15 @@
 .content__lead {
-    margin: auto;
-    margin-top: 90px;
+    margin: 90px 11.5625% 0;
+}
+
+@media screen and (max-width: 768px) {
+  .content__lead {
+    margin: 90px 0 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__lead {
+    margin: 50px 0 0 0;
+  }
 }

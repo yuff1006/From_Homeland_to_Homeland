@@ -1,7 +1,7 @@
 .place__website-artist {
     color: #FFFFFF;
     font-size: 18px;
-    line-height: 1.2;
+    line-height: 22px;
     text-decoration: none;
     transition: opacity 0.4s ease-out;
 }

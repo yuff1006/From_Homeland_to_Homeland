@@ -1,5 +1,10 @@
 .intro {
     max-width: 785px;
-    max-height: 490px;
+    min-height: 490px;
+}
 
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% - 2 * 24px);
+  }
 }

@@ -3,8 +3,24 @@
     text-align: center;
     font-size: 30px;
     font-weight: 400;
-    line-height: 1.15;
+    line-height: 36px;
     max-width: 720px;
     min-height: 40px;
     padding: 0;
+}
+
+@media screen and (max-width: 786px) {
+  .lead__subtitle {
+    margin-bottom: 36px;
+    max-width: calc(100% - 2 * 24px);
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__subtitle {
+    margin: 16px auto 40px;
+    font-size: 16px;
+    line-height: 20px;
+    max-width: calc(100% - 2 * 16px);
+  }
 }

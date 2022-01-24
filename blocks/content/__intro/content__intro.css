@@ -4,6 +4,12 @@
 
 @media screen and (max-width: 768px) {
   .content__intro {
-    margin-left: 24px;
+    margin: 88px 24px 90px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__intro {
+    margin: 64px 16px 90px;
   }
 }

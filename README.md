@@ -2,18 +2,16 @@
 ### Overview  
 * Intro  
 * Figma  
-* Images  
+* Link  
   
 **Intro**    
   
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+This is a project that showcases the hometowns of some of Practicum's employees including my own hometown Shanghai, China. The project is reponsive for all popular screen sizes: 1280px, 768px, and 320px. CSS techniques used: flexbox, positioning, grid, animation, and responsive design.  
   
 **Figma**  
   
 * [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
   
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+**Link to Project**  
+Deployed on GitHub Pages
+https://yuff1006.github.io/web_project_3/

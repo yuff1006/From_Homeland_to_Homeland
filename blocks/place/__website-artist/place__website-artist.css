@@ -3,9 +3,5 @@
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
-    transition: opacity 0.4s ease-out;
-}
-
-.place__website-artist:hover {
-  opacity: 0.5;
+    margin: 0;
 }

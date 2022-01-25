@@ -7,3 +7,9 @@
     margin: 92px 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .content__cover {
+    margin: 64px 0;
+  }
+}

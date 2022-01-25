@@ -4,4 +4,8 @@
     text-decoration: none;
     color: #AAAAAA;
     margin-bottom: 8px;
+    margin-top: 0;
+    letter-spacing: 0.12em;
+    font-weight: 400;
+    text-transform: uppercase;
 }

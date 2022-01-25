@@ -1,13 +1,16 @@
-.photo-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-  grid-gap: 16px;
-  max-width: calc(100% - 2 * 48px);
+.photo-grid__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 16px;
+    max-width: calc(100% - 2 * 48px);
+    list-style-type: none;
+    padding: 0;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px) {
-  .photo-grid {
+  .photo-grid__list {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     max-width: calc(100% - 2 * 16px);
@@ -15,7 +18,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .photo-grid {
+  .photo-grid__list {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
   }

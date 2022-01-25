@@ -9,12 +9,27 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 21.78px;
-  box-sizing: border-box;
   padding-top: calc((48px - 1.2 * 18px) / 2);
   padding-bottom: calc((48px - 1.2 * 18px) / 2);
   transition: background-color 0.3s ease-out;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .button:hover {
   background-color: #0063D2;
+}
+
+@media screen and (max-width: 768px) {
+  .button {
+    max-height: 100%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .button {
+    max-width: calc(100% - 2 * 16px);
+    margin: auto;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
 }

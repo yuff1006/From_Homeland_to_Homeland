@@ -1,14 +1,15 @@
 .cover {
     background-image: url('../../images/__background.png');
     width: calc(100% - 2 * 48px);
+    height: 740px;
     background-size: cover;
-    min-height: 740px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
+    object-fit: cover;
 }
 
 .cover::after {
@@ -33,6 +34,14 @@
 @media screen and (max-width: 768px) {
   .cover {
     width: 100%;
+    height: 746px;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .cover {
+    height: 254px;
+    display: flex;
+    justify-content: center;
+  }
+}

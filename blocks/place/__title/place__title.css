@@ -5,13 +5,13 @@
     font-size: 72px;
     line-height: 76px;
     max-width: 460px;
-    max-height: 152px;
 }
 
 @media screen and (max-width: 768px) {
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    max-width: 340px;
   }
 }
 
@@ -19,5 +19,6 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    max-width: 288px;
   }
 }

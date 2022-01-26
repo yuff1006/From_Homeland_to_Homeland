@@ -56,3 +56,5 @@
 @import url('../blocks/footer/__text/footer__text.css');
 /* button modifiers */
 @import url('../blocks/button/_location/button_location_cover.css');
+/* place modifiers */
+@import url('../blocks/content/__place/_text-length/content__place_text-length_long.css');

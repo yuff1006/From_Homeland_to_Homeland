@@ -9,20 +9,28 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 21.78px;
-  padding-top: calc((48px - 1.2 * 18px) / 2);
-  padding-bottom: calc((48px - 1.2 * 18px) / 2);
+  padding-top: calc((48px - 21.78px) / 2);
+  padding-bottom: calc((48px - 21.78px) / 2);
   transition: background-color 0.3s ease-out;
   padding-right: 20px;
   padding-left: 20px;
+  box-sizing: border-box;
 }
 
 .button:hover {
   background-color: #0063D2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 571px) {
   .button {
-    max-height: 100%;
+    max-height: calc(21.78px * 2);
+    box-sizing: content-box;
+  }
+}
+
+@media screen and (max-width: 421px) {
+  .button {
+    max-height: calc(21.78px * 3);
   }
 }
 @media screen and (max-width: 320px) {

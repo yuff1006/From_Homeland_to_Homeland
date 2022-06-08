@@ -14,4 +14,4 @@ This is a project that showcases the hometowns of some of Practicum's employees 
   
 **Link to Project**  
 Deployed on GitHub Pages
-https://yuff1006.github.io/web_project_3/
+https://yuff1006.github.io/From_Homeland_to_Homeland/
